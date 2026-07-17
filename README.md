@@ -12,6 +12,10 @@ Version 1.0.0 creates responsive galleries with exact Grid and Masonry column co
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-FF5E5B?logo=kofi&logoColor=white)](https://ko-fi.com/aminudinmurad)
 [![PayPal](https://img.shields.io/badge/PayPal-Support-003087?logo=paypal&logoColor=white)](https://www.paypal.com/paypalme/aminudinmurad)
 
+## Download
+
+Download the official plugin package from the [v1.0.0 GitHub Release](https://github.com/AminudinMurad/my-gallery-pro/releases/tag/v1.0.0), then upload `my-gallery-pro-1.0.0.zip` in WordPress from **Plugins > Add New > Upload Plugin**.
+
 ## Overview
 
 MY Gallery PRO lets photographers, creatives, and content-rich sites build
