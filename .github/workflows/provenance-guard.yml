@@ -1,0 +1,41 @@
+name: Provenance Guard
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  guard:
+    name: Guard commit provenance
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Reject unwanted AI attribution metadata
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if git log --format='%an <%ae>%n%cn <%ce>%n%B' | grep -Eiq 'clau[d]e|anthro[p]ic|co-authored.by'; then
+            echo 'Commit history must not contain forbidden AI attribution metadata.' >&2
+            exit 1
+          fi
+
+      - name: Require AminudinMurad commit identity
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          bad_identities="$(
+            git log --format='%an <%ae>|%cn <%ce>' |
+              awk -F'|' '$1 !~ /^Aminudin Murad <.*>$/ || $2 !~ /^Aminudin Murad <.*>$/ { print }'
+          )"
+
+          if [ -n "$bad_identities" ]; then
+            echo 'Commit author and committer must both be Aminudin Murad.' >&2
+            echo "$bad_identities" >&2
+            exit 1
+          fi

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#cfe3f2"/><stop offset="1" stop-color="#a9c9e6"/></linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d8ecd8"/><stop offset="1" stop-color="#b3d9b8"/></linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3e2c7"/><stop offset="1" stop-color="#e6c99b"/></linearGradient>
+    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ecd6e4"/><stop offset="1" stop-color="#d9b3cd"/></linearGradient>
+  </defs>
+  <rect width="1200" height="760" rx="10" fill="#ffffff"/>
+  <!-- browser chrome -->
+  <rect width="1200" height="52" rx="10" fill="#f0f0f1"/><rect y="36" width="1200" height="16" fill="#f0f0f1"/>
+  <circle cx="26" cy="26" r="6" fill="#ff5f57"/><circle cx="48" cy="26" r="6" fill="#febc2e"/><circle cx="70" cy="26" r="6" fill="#28c840"/>
+  <rect x="100" y="14" width="1080" height="24" rx="12" fill="#ffffff" stroke="#dcdcde"/>
+  <text x="120" y="31" fill="#8c8f94" font-size="12">yoursite.com/portfolio</text>
+
+  <!-- page heading -->
+  <text x="48" y="104" fill="#1d2327" font-size="26" font-weight="800">Summer Portfolio</text>
+  <text x="48" y="130" fill="#646970" font-size="14">Responsive gallery rendered by the [mygallery] shortcode — grid layout, 3 columns.</text>
+
+  <!-- masonry/grid of images, varied heights -->
+  <g stroke="#dcdcde">
+    <!-- column 1 -->
+    <rect x="48" y="152" width="356" height="220" rx="8" fill="url(#g1)"/>
+    <rect x="48" y="384" width="356" height="150" rx="8" fill="url(#g3)"/>
+    <rect x="48" y="546" width="356" height="176" rx="8" fill="url(#g2)"/>
+    <!-- column 2 -->
+    <rect x="420" y="152" width="356" height="150" rx="8" fill="url(#g2)"/>
+    <rect x="420" y="314" width="356" height="220" rx="8" fill="url(#g4)"/>
+    <rect x="420" y="546" width="356" height="176" rx="8" fill="url(#g1)"/>
+    <!-- column 3 -->
+    <rect x="792" y="152" width="360" height="176" rx="8" fill="url(#g4)"/>
+    <rect x="792" y="340" width="360" height="194" rx="8" fill="url(#g3)"/>
+    <rect x="792" y="546" width="360" height="176" rx="8" fill="url(#g2)"/>
+  </g>
+  <!-- subtle mountain/photo glyphs -->
+  <g fill="#ffffff" opacity="0.55">
+    <circle cx="120" cy="210" r="20"/><circle cx="500" cy="230" r="18"/><circle cx="880" cy="230" r="18"/>
+  </g>
+
+  <!-- lightbox hint on center image -->
+  <g>
+    <rect x="420" y="314" width="356" height="220" rx="8" fill="#1d2327" opacity="0.28"/>
+    <circle cx="598" cy="424" r="28" fill="#ffffff" opacity="0.92"/>
+    <path d="M590 410 l22 14 -22 14 z" fill="#2271b1"/>
+    <text x="598" y="474" fill="#ffffff" font-size="12" text-anchor="middle" font-weight="600">Click to open viewer</text>
+  </g>
+
+  <rect x="976" y="700" width="176" height="24" rx="12" fill="#1d2327" opacity="0.72"/>
+  <text x="1064" y="716" fill="#fff" font-size="11" text-anchor="middle">Illustrative mockup</text>
+</svg>

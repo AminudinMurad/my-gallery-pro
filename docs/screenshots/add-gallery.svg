@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+  <defs>
+    <linearGradient id="mgp-thumb" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9edf2"/><stop offset="1" stop-color="#d7dee7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" rx="10" fill="#f0f0f1"/>
+  <rect width="1200" height="44" rx="10" fill="#1d2327"/><rect y="30" width="1200" height="14" fill="#1d2327"/>
+  <circle cx="26" cy="22" r="6" fill="#ff5f57"/><circle cx="48" cy="22" r="6" fill="#febc2e"/><circle cx="70" cy="22" r="6" fill="#28c840"/>
+  <text x="600" y="27" fill="#c3c4c7" font-size="14" text-anchor="middle">Add Gallery — MY Gallery PRO v1.0.0</text>
+
+  <text x="48" y="90" fill="#1d2327" font-size="24" font-weight="700">Add Gallery</text>
+  <rect x="230" y="70" width="52" height="24" rx="12" fill="#2ec458" opacity="0.15"/>
+  <text x="256" y="87" fill="#1a7a3c" font-size="12" font-weight="700" text-anchor="middle">PRO</text>
+
+  <!-- left: title + images -->
+  <rect x="48" y="112" width="740" height="576" rx="8" fill="#ffffff" stroke="#dcdcde"/>
+  <text x="72" y="146" fill="#50575e" font-size="12" font-weight="600">GALLERY TITLE</text>
+  <rect x="72" y="156" width="692" height="40" rx="6" fill="#f6f7f7" stroke="#c3c4c7"/>
+  <text x="88" y="181" fill="#1d2327" font-size="15">Summer Portfolio</text>
+
+  <rect x="72" y="216" width="200" height="36" rx="5" fill="#2271b1"/>
+  <text x="172" y="239" fill="#fff" font-size="13" font-weight="600" text-anchor="middle">Choose gallery images</text>
+  <text x="764" y="239" fill="#646970" font-size="13" text-anchor="end">6 images selected</text>
+
+  <!-- selected images grid with controls -->
+  <g>
+    <g>
+      <rect x="72" y="272" width="220" height="140" rx="6" fill="url(#mgp-thumb)" stroke="#dcdcde"/>
+      <rect x="308" y="272" width="220" height="140" rx="6" fill="url(#mgp-thumb)" stroke="#dcdcde"/>
+      <rect x="544" y="272" width="220" height="140" rx="6" fill="url(#mgp-thumb)" stroke="#dcdcde"/>
+      <rect x="72" y="428" width="220" height="140" rx="6" fill="url(#mgp-thumb)" stroke="#dcdcde"/>
+      <rect x="308" y="428" width="220" height="140" rx="6" fill="url(#mgp-thumb)" stroke="#dcdcde"/>
+      <rect x="544" y="428" width="220" height="140" rx="6" fill="url(#mgp-thumb)" stroke="#dcdcde"/>
+    </g>
+    <g fill="#b3bcc6">
+      <circle cx="182" cy="342" r="16"/><circle cx="418" cy="342" r="16"/><circle cx="654" cy="342" r="16"/>
+      <circle cx="182" cy="498" r="16"/><circle cx="418" cy="498" r="16"/><circle cx="654" cy="498" r="16"/>
+    </g>
+    <!-- reorder/remove chips on first tile -->
+    <g font-size="12" fill="#fff">
+      <rect x="80" y="280" width="22" height="20" rx="4" fill="#1d2327" opacity="0.75"/><text x="91" y="294" text-anchor="middle">‹</text>
+      <rect x="106" y="280" width="22" height="20" rx="4" fill="#1d2327" opacity="0.75"/><text x="117" y="294" text-anchor="middle">›</text>
+      <rect x="252" y="280" width="32" height="20" rx="4" fill="#d63638" opacity="0.9"/><text x="268" y="294" text-anchor="middle">✕</text>
+    </g>
+    <text x="80" y="592" fill="#8c8f94" font-size="11">Drag, or use arrow controls / keyboard to reorder · Remove per image</text>
+  </g>
+
+  <text x="72" y="636" fill="#50575e" font-size="12" font-weight="600">SHORTCODE</text>
+  <rect x="72" y="646" width="560" height="34" rx="5" fill="#1d2327"/>
+  <text x="88" y="668" fill="#8fe6a8" font-size="13" font-family="ui-monospace,Menlo,Consolas,monospace">[mygallery id="123"]</text>
+  <rect x="644" y="646" width="120" height="34" rx="5" fill="#2ec458"/>
+  <text x="704" y="668" fill="#fff" font-size="13" font-weight="600" text-anchor="middle">Copy</text>
+
+  <!-- right: settings -->
+  <rect x="804" y="112" width="348" height="576" rx="8" fill="#ffffff" stroke="#dcdcde"/>
+  <text x="828" y="146" fill="#1d2327" font-size="15" font-weight="700">Gallery Settings</text>
+
+  <text x="828" y="184" fill="#50575e" font-size="12" font-weight="600">LAYOUT</text>
+  <rect x="828" y="194" width="150" height="34" rx="5" fill="#2271b1"/><text x="903" y="216" fill="#fff" font-size="13" text-anchor="middle" font-weight="600">Grid</text>
+  <rect x="986" y="194" width="142" height="34" rx="5" fill="#f6f7f7" stroke="#c3c4c7"/><text x="1057" y="216" fill="#50575e" font-size="13" text-anchor="middle">Masonry</text>
+
+  <text x="828" y="264" fill="#1d2327" font-size="13">Desktop columns</text>
+  <rect x="1040" y="250" width="88" height="28" rx="5" fill="#f6f7f7" stroke="#c3c4c7"/><text x="1084" y="269" fill="#50575e" font-size="13" text-anchor="middle">3 ▾</text>
+  <text x="828" y="306" fill="#1d2327" font-size="13">Mobile columns</text>
+  <rect x="1040" y="292" width="88" height="28" rx="5" fill="#f6f7f7" stroke="#c3c4c7"/><text x="1084" y="311" fill="#50575e" font-size="13" text-anchor="middle">2 ▾</text>
+  <text x="828" y="348" fill="#1d2327" font-size="13">Gap (px)</text>
+  <rect x="1040" y="334" width="88" height="28" rx="5" fill="#f6f7f7" stroke="#c3c4c7"/><text x="1084" y="353" fill="#50575e" font-size="13" text-anchor="middle">16 ▾</text>
+  <text x="828" y="390" fill="#1d2327" font-size="13">Image shape</text>
+  <rect x="1040" y="376" width="88" height="28" rx="5" fill="#f6f7f7" stroke="#c3c4c7"/><text x="1084" y="395" fill="#50575e" font-size="13" text-anchor="middle">Auto ▾</text>
+
+  <line x1="828" y1="420" x2="1128" y2="420" stroke="#f0f0f1"/>
+  <rect x="828" y="440" width="44" height="22" rx="11" fill="#2ec458"/><circle cx="861" cy="451" r="8" fill="#fff"/>
+  <text x="884" y="455" fill="#1d2327" font-size="13">Show captions</text>
+  <rect x="828" y="478" width="44" height="22" rx="11" fill="#2ec458"/><circle cx="861" cy="489" r="8" fill="#fff"/>
+  <text x="884" y="493" fill="#1d2327" font-size="13">Enable image viewer (lightbox)</text>
+
+  <rect x="828" y="636" width="300" height="40" rx="6" fill="#2271b1"/>
+  <text x="978" y="661" fill="#fff" font-size="14" font-weight="700" text-anchor="middle">Publish Gallery</text>
+
+  <rect x="976" y="700" width="176" height="24" rx="12" fill="#1d2327" opacity="0.72"/>
+  <text x="1064" y="716" fill="#fff" font-size="11" text-anchor="middle">Illustrative mockup</text>
+</svg>

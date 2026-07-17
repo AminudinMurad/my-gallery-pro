@@ -1,0 +1,17 @@
+/.git
+/.github
+/docs
+/.wordpress-org
+/build
+/releases
+/node_modules
+/tests
+/tools
+.DS_Store
+/.distignore
+/.editorconfig
+/.gitattributes
+/.gitignore
+/CONTRIBUTING.md
+/AGENTS.md
+/SECURITY.md
