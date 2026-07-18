@@ -94,9 +94,9 @@ $license_source = (string) file_get_contents( dirname( __DIR__ ) . '/LICENSE' );
 
 mygallery_test_contains( 'Version:           1.0.0', $plugin_source, 'The plugin header version is incorrect.' );
 mygallery_test_contains( 'Stable tag: 1.0.0', $readme_source, 'The readme stable tag is incorrect.' );
-mygallery_test_contains( 'License:           MIT', $plugin_source, 'The plugin header must declare the MIT license.' );
-mygallery_test_contains( 'License: MIT', $readme_source, 'The readme must declare the MIT license.' );
-mygallery_test_assert( 0 === strpos( $license_source, 'MIT License' ), 'The MIT license file is incorrect.' );
+mygallery_test_contains( 'License:           GPLv3', $plugin_source, 'The plugin header must declare the GPLv3 license.' );
+mygallery_test_contains( 'License: GPLv3', $readme_source, 'The readme must declare the GPLv3 license.' );
+mygallery_test_assert( 0 === strpos( ltrim( $license_source ), 'GNU GENERAL PUBLIC LICENSE' ), 'The GPLv3 license file is incorrect.' );
 
 call_user_func( mygallery_test_hook( 'actions', 'plugins_loaded' ) );
 

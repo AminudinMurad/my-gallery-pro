@@ -5,8 +5,8 @@ Requires at least: 6.5
 Tested up to: 7.0
 Requires PHP: 7.4
 Stable tag: 1.0.0
-License: MIT
-License URI: https://opensource.org/licenses/MIT
+License: GPLv3
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 Build fast, responsive, and accessible photo galleries in WordPress.
 
@@ -16,7 +16,7 @@ MY Gallery PRO lets photographers, creative professionals, and content-rich Word
 
 Create a gallery, choose and reorder images, select a responsive layout, then place it on any page or post with a shortcode. Images retain their WordPress responsive sources and alternative text, while the optional viewer works as a progressive enhancement over ordinary full-image links.
 
-MY Gallery PRO is free and open source, released under the MIT License. See the bundled LICENSE file for terms.
+MY Gallery PRO is free and open source, released under the GNU General Public License v3.0. See the bundled LICENSE file for terms.
 
 == Installation ==
 

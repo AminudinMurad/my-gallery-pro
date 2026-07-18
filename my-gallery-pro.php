@@ -8,8 +8,8 @@
  * Requires PHP:      7.4
  * Author:            Aminudin Murad
  * Author URI:        https://github.com/AminudinMurad
- * License:           MIT
- * License URI:       https://opensource.org/licenses/MIT
+ * License:           GPLv3
+ * License URI:       https://www.gnu.org/licenses/gpl-3.0.html
  * Text Domain:       my-gallery-pro
  * Update URI:        https://github.com/AminudinMurad/my-gallery-pro
  *

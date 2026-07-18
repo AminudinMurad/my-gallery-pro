@@ -4,9 +4,9 @@ MY Gallery PRO is a modern, open-source photo-gallery plugin for WordPress. This
 
 Version 1.0.0 creates responsive galleries with exact Grid and Masonry column controls, accurate versioned admin titles, and a one-click copyable shortcode.
 
-[![License: MIT](https://img.shields.io/github/license/AminudinMurad/my-gallery-pro?color=blue)](LICENSE)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 
-**MY Gallery PRO is free and open source under the MIT License. If it helps you build galleries, please consider supporting continued development and WordPress compatibility testing:**
+**MY Gallery PRO is free and open source under the GNU General Public License v3.0. If it helps you build galleries, please consider supporting continued development and WordPress compatibility testing:**
 
 [![GitHub Sponsors](https://img.shields.io/badge/GitHub-Sponsors-EA4AAA?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/aminudinmurad)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-FF5E5B?logo=kofi&logoColor=white)](https://ko-fi.com/aminudinmurad)
@@ -118,7 +118,7 @@ Version references must agree in:
 
 MY Gallery PRO is independently designed and implemented. The plugin does not include source code, templates, interface assets, branding, or derivative materials from other gallery products.
 
-Official release archives contain only first-party MY Gallery PRO files under the MIT License. The plugin and its local test runner require no third-party dependency manager or runtime packages.
+Official release archives contain only first-party MY Gallery PRO files under the GNU General Public License v3.0. The plugin and its local test runner require no third-party dependency manager or runtime packages.
 
 ## Support development
 
@@ -132,4 +132,4 @@ Thank you for helping keep MY Gallery PRO improving and freely available.
 
 ## License
 
-MY Gallery PRO is released under the MIT License. See [LICENSE](LICENSE). You are free to use, copy, modify, merge, publish, distribute, sublicense, and sell copies of the software, subject to the terms of that license.
+MY Gallery PRO is released under the GNU General Public License v3.0 (GPL-3.0). See [LICENSE](LICENSE). You are free to use, study, modify, and redistribute the software — including commercially — provided that any distributed copies or derivative works remain under the GPL, retain the original copyright and license notices, and make their source code available.
